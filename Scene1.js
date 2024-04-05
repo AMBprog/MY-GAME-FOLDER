@@ -3,8 +3,11 @@ class Scene1 extends Phaser.Scene {
         super("bootGame");
     }
 
-    preload(){
-        this.load.image("background", "assets/images/background.png");
+    preload()
+                {     
+        this.load.image("city", "assets/images/city.png");
+        this.load.image("charachter1", "assets/images/charachter1.png");
+        this.load.image("charachter2", "assets/images/charachter2.png");
     }
 
     create() {
